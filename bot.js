@@ -63,4 +63,4 @@ member.send( `${member}, ` + message.content.substr(3));
 });
 });
 
-client.login("proccess.env.BOT_TOKEN");
+client.login(process.env.BOT_TOKEN);
